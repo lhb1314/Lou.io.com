@@ -68,7 +68,9 @@ npm run dev
 
  删除App.vue 中的其他无用代码 最后的页面如下 
 
-{% asset_img 1.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/1.png?raw=true)
+
+
 
 
 
@@ -154,7 +156,9 @@ console.log(store);
 
  使用store很简单，直接引入我们声明的useUsersStore 方法即可，我们可以先看一下执行该方法输出的是什么： 
 
-{% asset_img 2.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/2.png?raw=true)
+
+
 
 ###  4.4.添加state
 我们都知道store是用来存放公共数据的，那么数据具体存在在哪里呢？前面我们利用defineStore函数创建了一个store，该函数第二个参数是一个options配置项，我们需要存放的数据就放在options对象中的state属性内。
@@ -182,7 +186,9 @@ export const useUsersStore = defineStore("users", {
 
 ####  4.5.1.读取state数据
 读取 state 数据很简单 前面我们尝试过在 App.vue 中打印 store那么我们添加数据后在来看看打印结果
-{% asset_img 3.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/3.png?raw=true)
+
+
 
 这个时候我们发现打印的结果里面多了几个属性，恰好就是我们添加的数据，修改App.vue，让这几个数据显示出来。
 
@@ -208,7 +214,10 @@ const sex = ref<string>(store.sex);
 
  **输出结果：** 
 
-{% asset_img 4.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/4.png?raw=true)
+
+
+
 
 上段代码中我们直接通过store.age等方式获取到了store存储的值，但是大家有没有发现，这样比较繁琐，我们其实可以用解构的方式来获取值，使得代码更简洁一点。
 
@@ -247,7 +256,9 @@ const { name, age, sex } = store;
 
  child组件和app.vue组件几乎一样，就是很简单的使用了store中的数据。 
 
-{% asset_img 5.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/5.png?raw=true)
+
+
 
 这样我们就实现了多个组件同时使用store中的数据。
 
@@ -280,7 +291,9 @@ const changeName = () => {
 
  上段代码新增了changeName 方法，改变了store中name的值，我们点击按钮，看看最终效果 
 
-{% asset_img 6.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/6.png?raw=true)
+
+
 
 我们可以看到store中的name确实被修改了，但是页面上似乎没有变化，这说明我们的使用的name不是响应式的。
 
@@ -325,7 +338,9 @@ const changeName = () => {
 
  这个时候我们再来尝试分别点击两个组件的按钮，实现效果如下 
 
-{% asset_img 7.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86-Pinia/7.png?raw=true)
+
+
 
 当我们store中数据发生变化时，页面也更新了！
 

@@ -17,7 +17,7 @@ cover: https://www.linuxprobe.com/wp-content/uploads/2016/10/0-react01-1.jpg
 
  React 是一个开源的 javaScript 库 用于构建 web 应用中的视图层 就是web 应用中的前端用户界面 
 
-{% asset_img 1.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/1.png?raw=true)
 
  React 是目前最为流行的[前端框架](https://so.csdn.net/so/search?q=前端框架&spm=1001.2101.3001.7020)之一。 
 
@@ -25,8 +25,8 @@ cover: https://www.linuxprobe.com/wp-content/uploads/2016/10/0-react01-1.jpg
 
 **[npm 前端三大框架下载量对比](https://npmtrends.com/angular-vs-react-vs-vue)**
 
-{% asset_img 2.png This is an example image %}
-![百度图片--lena](https://img0.baidu.com/it/u=3425868493,3104015061&fm=253&fmt=auto&app=120&f=JPEG?w=1199&h=800)
+
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/2.png?raw=true)
 
 
 
@@ -34,7 +34,8 @@ cover: https://www.linuxprobe.com/wp-content/uploads/2016/10/0-react01-1.jpg
 
 
 
-{% asset_img 3.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/3.png?raw=true)
+
 
 React 是 Facebook 的软件工程师在 2012 年创建 于 2013年5月开源 目前由 facebook 以及个人开发人员和公司组成的社区维护。
 
@@ -45,7 +46,8 @@ React 起源于 facebook 的内部项目 因为当时该公司的市场上所有
 
 [Stack Overflow](https://stackoverflow.com/questions/tagged/reactjs)
 
-{% asset_img 4.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/4.png?raw=true)
+
 
 ##  2.创建React项目
 
@@ -69,12 +71,15 @@ npm init react-app react-basic
 
 
 
-{% asset_img 5.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/5.png?raw=true)
 
 
-{% asset_img 6.png This is an example image %}
 
-{% asset_img 7.png This is an example image %}
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/6.png?raw=true)
+
+
+![github](https://github.com/lhb1314/Lou.io.com/blob/main/source/_posts/React%E5%9F%BA%E7%A1%80/7.png?raw=true)
+
 
 ```tet
 # 项目结构分析
